@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "alexandre",
+    "fullname": "Alexandre CHOPIN",
+    "description": "No idea",
+    "country": "FRANCE",
+    "createdAt": "01/01/01"
+  },
+  {
+    "slug": "sebastien",
+    "fullname": "Sébastien CHOPIN",
+    "description": "No idea",
+    "country": "FRANCE",
+    "createdAt": "01/01/01"
+  }]
