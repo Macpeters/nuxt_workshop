@@ -1,0 +1,20 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "Nuxt workshop to discover how Nuxt is awesome :)",
+  "author": "Nuxt Brothers",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
