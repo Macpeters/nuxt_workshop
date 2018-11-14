@@ -1,14 +1,10 @@
 <template>
   <div>
     <h1>Team</h1>
-    <ul>
-      <li>
-        <nuxt-link to="/team/alexandre">Alexandre</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="/team/sebastien">Sebastien</nuxt-link>
-      </li>
-    </ul>
+    <b-nav>
+      <b-nav-item to="/team/alexandre">Alexandre</b-nav-item>
+      <b-nav-item to="/team/sebastien">Sebastien</b-nav-item>
+    </b-nav>
     <nuxt-child v-if="$route.params.username"/>
   </div>
 </template>
