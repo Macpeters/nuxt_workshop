@@ -1,28 +1,6 @@
 <template>
   <div>
     <h1>Hello world!</h1>
-    <ul>
-      <li>
-        <nuxt-link to="/projects">Projects</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="/blog">Blog</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="/team">Team</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="/contact">Contact</nuxt-link>
-      </li>
-    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit totam nesciunt voluptates voluptatum minima quia perferendis eius magnam dolores quisquam, deserunt error velit. Rerum eaque ipsum, ducimus libero ipsam magni!</p>
   </div>
 </template>
-
-<style>
-.page-enter-active, .page-leave-active {
-  transition: opacity .5s;
-}
-.page-enter, .page-leave-to {
-  opacity: 0;
-}
-</style>
