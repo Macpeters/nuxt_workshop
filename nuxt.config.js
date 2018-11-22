@@ -42,7 +42,8 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@/modules/nuxt-toronto'
   ],
   axios: {
 

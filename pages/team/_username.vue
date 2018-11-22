@@ -1,6 +1,12 @@
 <template>
   <div>
     <h2>{{ $route.params.username }}</h2>
+    <div>
+      <div>Fullname: {{user.Fullname}}</div>
+      <div>Description: {{user.description}}</div>
+      <br />
+      <div>User Record: {{user}}</div>
+    </div>
   </div>
 </template>
 
@@ -14,18 +20,14 @@ export default {
       ]
     }
   },
-  async asyncData({ app }) {
+  async asyncData({ app, params, error }) {
     let team = await app.$axios.$get('/api/team.json')
-    return { team }
+    let user = team.find((user) => user.slug == params.username)
+    if(params.username && !user) {
+      return error({statusCode: 404, message: 'no user'})
+    }
+    return { user }
+
   }
-  // async asyncData() {
-    // var xhr = new XMLHttpRequest()
-    // var self = this
-    // xhr.open('GET', 'http://localhost:3000/api/team.json')
-    // xhr.onload = function () {
-    //   console.log(JSON.parse(xhr.responseText))
-    // }
-    // xhr.send()
-  // }
 }
 </script>

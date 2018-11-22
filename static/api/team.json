@@ -1,15 +1,17 @@
 [
   {
-    "slug": "alexandre",
-    "fullname": "Alexandre CHOPIN",
-    "description": "No idea",
-    "country": "FRANCE",
-    "createdAt": "01/01/01"
+    "slug": "mac",
+    "fullname": "Mac Peters",
+    "description": "animals with funny hats"
   },
   {
-    "slug": "sebastien",
-    "fullname": "Sébastien CHOPIN",
-    "description": "No idea",
-    "country": "FRANCE",
-    "createdAt": "01/01/01"
-  }]
+    "slug": "keith",
+    "fullname": "Keith Cooper",
+    "description": "skulls"
+  },
+  {
+    "slug": "sergiy",
+    "fullname": "Sergiy Kuzmenko",
+    "description": "snoopy"
+  }
+]

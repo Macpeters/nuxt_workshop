@@ -2,8 +2,9 @@
   <div>
     <h1>Team</h1>
     <b-nav>
-      <b-nav-item to="/team/alexandre">Alexandre</b-nav-item>
-      <b-nav-item to="/team/sebastien">Sebastien</b-nav-item>
+      <b-nav-item to="/team/mac">Mac</b-nav-item>
+      <b-nav-item to="/team/keith">Keith</b-nav-item>
+      <b-nav-item to="/team/sergiy">Sergiy</b-nav-item>
     </b-nav>
     <nuxt-child v-if="$route.params.username"/>
   </div>

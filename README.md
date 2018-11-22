@@ -2,7 +2,7 @@
 
 > Nuxt workshop to discover how Nuxt is awesome :)
 
-## Build Setup
+## Build Setup (Yarn)
 
 ``` bash
 # install dependencies
@@ -17,6 +17,14 @@ $ yarn start
 
 # generate static project
 $ yarn run generate
+```
+
+## Build Setup (Npm)
+```
+ nvm use v8.9.4
+ npm install
+ npm run dev
+
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
